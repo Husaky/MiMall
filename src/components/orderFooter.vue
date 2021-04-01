@@ -1,12 +1,12 @@
 <template>
-  <div id="orderPay">
-
+  <div id="order-foot">
+    order-footer
   </div>
 </template>
 
 <script>
 export default {
-name: "orderPay"
+  name: "orderFooter"
 }
 </script>
 

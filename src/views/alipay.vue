@@ -1,5 +1,7 @@
 <template>
-
+  <div id="alipay">
+    alipay
+  </div>
 </template>
 
 <script>

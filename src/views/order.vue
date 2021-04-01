@@ -1,21 +1,21 @@
 <template>
   <div class="order">
-    <nav-header></nav-header>
+    <order-header></order-header>
+    order
     <router-view></router-view>
-    <nav-footer></nav-footer>
+    <order-footer></order-footer>
   </div>
 </template>
 
 <script>
 // @ is an alias to /src
-
-import NavFooter from "@/components/NavFooter";
-import NavHeader from "@/components/NavHeader";
+import orderHeader from "@/components/orderHeader";
+import orderFooter from "@/components/orderFooter";
 export default {
   name: 'order',
   components: {
-    NavHeader,
-    NavFooter
+    orderHeader,
+    orderFooter
   }
 }
 </script>
